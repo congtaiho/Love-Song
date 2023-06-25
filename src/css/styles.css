@@ -1,0 +1,33 @@
+body {
+    overflow: hidden;
+}
+
+.resultContainer {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+nav {
+
+    background-color: bisque;
+    padding: 10px;
+}
+
+.nav>div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+
+}
+
+.input {
+    border: 1px solid grey;
+    width: 220px;
+}
+
+.inputSearch {
+    width: 400px;
+}
